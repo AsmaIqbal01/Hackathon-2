@@ -59,7 +59,7 @@ export default function Page() {
           </CardHeader>
           <CardContent className="flex flex-col gap-6">
             <div className="first">
-              <Image src={"/images/Pick - Up (1).png"} alt="Pick Up" width={92} height={20} />
+              <Image src={"/Pick - Up (1).png"} alt="Pick Up" width={92} height={20} />
             </div>
             <div className="sec w-full flex flex-wrap gap-4">
               <div className="add flex flex-col gap-3 w-full lg:w-[46%]">
@@ -84,7 +84,7 @@ export default function Page() {
               </div>
             </div>
             <div className="fourth">
-              <Image src={"/images/Drop - Off (1).png"} alt="Drop Off" width={104} height={20} />
+              <Image src={"/Drop - Off (1).png"} alt="Drop Off" width={104} height={20} />
             </div>
             <div className="sec w-full flex flex-wrap gap-4">
               <div className="add flex flex-col gap-3 w-full lg:w-[46%]">
@@ -121,9 +121,9 @@ export default function Page() {
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-col gap-6">
-            <Image src={"/images/Credit Card.png"} alt="Credit Card" width={804} height={308} />
-            <Image src={"/images/PayPal.png"} alt="PayPal" width={804} height={56} />
-            <Image src={"/images/Bitcoin.png"} alt="Bitcoin" width={804} height={56} />
+            <Image src={"/Credit Card.png"} alt="Credit Card" width={804} height={308} />
+            <Image src={"/PayPal.png"} alt="PayPal" width={804} height={56} />
+            <Image src={"/Bitcoin.png"} alt="Bitcoin" width={804} height={56} />
           </CardContent>
         </Card>
 
@@ -137,18 +137,18 @@ export default function Page() {
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-col gap-8">
-            <Image src={"/images/Confirmation.png"} alt="Confirmation" width={804} height={136} />
+            <Image src={"/Confirmation.png"} alt="Confirmation" width={804} height={136} />
             <Link href={'/admin'}>
             <button className="bg-[#3563e9] p-2 text-white rounded-xl w-[140px] h-[56px]">
               Rent Now
             </button></Link>
             
-            <Image src={"/images/Safe Data.png"} alt="Safe Data" width={548} height={100} />
+            <Image src={"/Safe Data.png"} alt="Safe Data" width={548} height={100} />
           </CardContent>
         </Card>
       </div>
       <div className="details w-full flex-shrink-0 lg:w-[40%] order-1 lg:order-2 flex justify-center">
-        <Image src={"/images/Rental Summary.png"} alt="Rental Summary" width={492} height={568} className=" lg:w-[492px] h-[568px]"  />
+        <Image src={"/Rental Summary.png"} alt="Rental Summary" width={492} height={568} className=" lg:w-[492px] h-[568px]"  />
       </div>
     </div>
   );
