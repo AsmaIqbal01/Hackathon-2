@@ -47,13 +47,15 @@ export default function Home() {
             </CardHeader>
             <CardContent className="w-full flex flex-col items-center justify-center gap-4">
               <Image src={"/Images/car.png"} alt="" width={220} height={68} />
-              <Image src={"/Images/Specification.png"} alt="" width={256} height={24} />
+              <Image src={"/Images/Specification 1.png"} alt="" width={256} height={24} />
             </CardContent>
             <CardFooter className="w-full flex items-center justify-between">
-              <p>
+
+              <p className="price font-bold">
                 $99.00/<span className="text-gray-500">day</span>
+
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
+              <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
             </CardFooter>
           </Card>
 
@@ -67,12 +69,17 @@ export default function Home() {
             </CardHeader>
             <CardContent className="w-full flex flex-col items-center justify-center gap-4">
               <Image src={"/Images/car (1).png"} alt="" width={220} height={68} />
-              <Image src={"/Images//Specification.png"} alt="" width={256} height={24} />
+              <Image src={"/Images/Specification 2.png"} alt="" width={256} height={24} />
             </CardContent>
             <CardFooter className="w-full flex items-center justify-between">
-              <p>
-                $99.00/<span className="text-gray-500">day</span>
+             <div className="discouted-price">
+         
+             <p className="price font-bold">
+                $80.00/<span className="text-gray-500">day</span>
               </p>
+              <p className="text-gray-400 line-through">$100.00
+              </p>
+              </div>
               <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
             </CardFooter>
           </Card>
@@ -86,14 +93,15 @@ export default function Home() {
               <CardDescription>Sedan</CardDescription>
             </CardHeader>
             <CardContent className="w-full flex flex-col items-center justify-center gap-4">
-              <Image src={"/Images/car.png"} alt="" width={220} height={68} />
+              <Image src={"/Images/Car (2).png"} alt="" width={220} height={68} />
               <Image src={"/Images/Specification.png"} alt="" width={256} height={24} />
             </CardContent>
             <CardFooter className="w-full flex items-center justify-between">
-              <p>
-                $99.00/<span className="text-gray-500">day</span>
+             
+            <p className="price font-bold">
+                $96.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
+              <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
             </CardFooter>
           </Card>
 
@@ -107,13 +115,16 @@ export default function Home() {
             </CardHeader>
             <CardContent className="w-full flex flex-col items-center justify-center gap-4">
               <Image src={"/Images/car (1).png"} alt="" width={220} height={68} />
-              <Image src={"/Images/Specification.png"} alt="" width={256} height={24} />
+              <Image src={"/Images/Specification 2.png"} alt="" width={256} height={24} />
             </CardContent>
             <CardFooter className="w-full flex items-center justify-between">
-              <p>
-                $99.00/<span className="text-gray-500">day</span>
+            <div className="discouted-price">
+            <p className="price font-bold">
+                $80.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
+              <p className="text-gray-400 line-through">$100.00</p>
+              </div>
+              <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
             </CardFooter>
           </Card>
         </div>
@@ -127,19 +138,65 @@ export default function Home() {
           <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
             <CardHeader>
               <CardTitle className="w-full flex items-center justify-between">
-                All New Rush <Image src={"/Images/heart.png"} alt="" width={20} height={20} />
+                All New Rush <Image src={"/Images/heart 2.png"} alt="" width={20} height={20} />
+              </CardTitle>
+              <CardDescription>SUV</CardDescription>
+            </CardHeader>
+            <CardContent className="w-full flex flex-col items-center justify-center gap-4">
+              <Image src={"/Images/suv (2).png"} alt="" width={220} height={68} />
+              <Image src={"/Images/Specification.png"} alt="" width={256} height={24} />
+            </CardContent>
+            <CardFooter className="w-full flex items-center justify-between">
+             
+            <div className="discouted-price">
+            <p className="price font-bold">
+                $72.00/<span className="text-gray-500">day</span>
+              </p>
+              <p className="text-gray-400 line-through">$80.00</p>
+              </div>
+              <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
+            </CardFooter>
+          </Card>
+
+          
+          <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
+            <CardHeader>
+              <CardTitle className="w-full flex items-center justify-between">
+                CR - V <Image src={"/Images/heart.png"} alt="" width={20} height={20} />
+              </CardTitle>
+              <CardDescription>SUV</CardDescription>
+            </CardHeader>
+            <CardContent className="w-full flex flex-col items-center justify-center gap-4">
+              <Image src={"/Images/suv (4).png"} alt="" width={220} height={68} />
+              <Image src={"/Images/Specification 3.png"} alt="" width={256} height={24} />
+            </CardContent>
+            <CardFooter className="w-full flex items-center justify-between">
+            
+            <p className="price font-bold">
+                $80.00/<span className="text-gray-500">day</span>
+              </p>
+              <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
+            </CardFooter>
+          </Card>
+
+          
+          <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
+            <CardHeader>
+              <CardTitle className="w-full flex items-center justify-between">
+                All New Terios <Image src={"/Images/heart 2.png"} alt="" width={20} height={20} />
               </CardTitle>
               <CardDescription>SUV</CardDescription>
             </CardHeader>
             <CardContent className="w-full flex flex-col items-center justify-center gap-4">
               <Image src={"/Images/suv.png"} alt="" width={220} height={68} />
-              <Image src={"/Images/Specification.png"} alt="" width={256} height={24} />
+              <Image src={"/Images/Specification 4.png"} alt="" width={256} height={24} />
             </CardContent>
             <CardFooter className="w-full flex items-center justify-between">
-              <p>
-                $99.00/<span className="text-gray-500">day</span>
+             
+            <p className="price font-bold">
+                $74.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
+              <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
             </CardFooter>
           </Card>
 
@@ -147,59 +204,20 @@ export default function Home() {
           <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
             <CardHeader>
               <CardTitle className="w-full flex items-center justify-between">
-                CR - V <Image src={"/Images/heart 2.png"} alt="" width={20} height={20} />
+                CR - V <Image src={"/Images/heart.png"} alt="" width={20} height={20} />
               </CardTitle>
               <CardDescription>SUV</CardDescription>
             </CardHeader>
             <CardContent className="w-full flex flex-col items-center justify-center gap-4">
-              <Image src={"/Images/suv (4).png"} alt="" width={220} height={68} />
-              <Image src={"/Images/Specification.png"} alt="" width={256} height={24} />
+              <Image src={"/Images/suv (3).png"} alt="" width={220} height={68} />
+              <Image src={"/Images/Specification 3.png"} alt="" width={256} height={24} />
             </CardContent>
             <CardFooter className="w-full flex items-center justify-between">
-              <p>
-                $99.00/<span className="text-gray-500">day</span>
+              
+            <p className="price font-bold">
+                $80.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-            </CardFooter>
-          </Card>
-
-          
-          <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
-            <CardHeader>
-              <CardTitle className="w-full flex items-center justify-between">
-                All New Terios <Image src={"/Images/heart.png"} alt="" width={20} height={20} />
-              </CardTitle>
-              <CardDescription>SUV</CardDescription>
-            </CardHeader>
-            <CardContent className="w-full flex flex-col items-center justify-center gap-4">
-              <Image src={"/Images/suv (4).png"} alt="" width={220} height={68} />
-              <Image src={"/Images/Specification.png"} alt="" width={256} height={24} />
-            </CardContent>
-            <CardFooter className="w-full flex items-center justify-between">
-              <p>
-                $99.00/<span className="text-gray-500">day</span>
-              </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-            </CardFooter>
-          </Card>
-
-          
-          <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
-            <CardHeader>
-              <CardTitle className="w-full flex items-center justify-between">
-                CR - V <Image src={"/Images/heart 2.png"} alt="" width={20} height={20} />
-              </CardTitle>
-              <CardDescription>SUV</CardDescription>
-            </CardHeader>
-            <CardContent className="w-full flex flex-col items-center justify-center gap-4">
-              <Image src={"/Images/suv (4).png"} alt="" width={220} height={68} />
-              <Image src={"/Images/Specification.png"} alt="" width={256} height={24} />
-            </CardContent>
-            <CardFooter className="w-full flex items-center justify-between">
-              <p>
-                $99.00/<span className="text-gray-500">day</span>
-              </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
+              <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
             </CardFooter>
           </Card>
         </div>
@@ -210,17 +228,21 @@ export default function Home() {
               <CardTitle className="w-full flex items-center justify-between">
                 MG ZX Exclusive <Image src={"/images/heart.png"} alt="" width={20} height={20} />
               </CardTitle>
-              <CardDescription>SUV</CardDescription>
+              <CardDescription>Hatchback</CardDescription>
             </CardHeader>
             <CardContent className="w-full flex flex-col items-center justify-center gap-4">
-              <Image src={"/Images/suv.png"} alt="" width={220} height={68} />
+              <Image src={"/Images/suv (5).png"} alt="" width={220} height={68} />
               <Image src={"/Images/Specification.png"} alt="" width={256} height={24} />
             </CardContent>
             <CardFooter className="w-full flex items-center justify-between">
-              <p>
-                $99.00/<span className="text-gray-500">day</span>
+              
+            <div className="discouted-price">
+            <p className="price font-bold">
+                $76.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
+              <p className="text-gray-400 line-through">$80.00</p>
+              </div>
+              <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
             </CardFooter>
           </Card>
 
@@ -233,14 +255,15 @@ export default function Home() {
               <CardDescription>SUV</CardDescription>
             </CardHeader>
             <CardContent className="w-full flex flex-col items-center justify-center gap-4">
-              <Image src={"/Images/suv.png"} alt="" width={220} height={68} />
-              <Image src={"/Images/Specification.png"} alt="" width={256} height={24} />
+              <Image src={"/Images/suv (1).png"} alt="" width={220} height={68} />
+              <Image src={"/Images/Specification 3.png"} alt="" width={256} height={24} />
             </CardContent>
             <CardFooter className="w-full flex items-center justify-between">
-              <p>
-                $99.00/<span className="text-gray-500">day</span>
+            
+            <p className="price font-bold">
+                $80.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
+              <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
             </CardFooter>
           </Card>
 
@@ -250,17 +273,18 @@ export default function Home() {
               <CardTitle className="w-full flex items-center justify-between">
                 MG ZX Excite <Image src={"/Images/heart.png"} alt="" width={20} height={20} />
               </CardTitle>
-              <CardDescription>SUV</CardDescription>
+              <CardDescription>Hatchback</CardDescription>
             </CardHeader>
             <CardContent className="w-full flex flex-col items-center justify-center gap-4">
-              <Image src={"/Images/suv (4).png"} alt="" width={220} height={68} />
-              <Image src={"/Images/Specification.png"} alt="" width={256} height={24} />
+              <Image src={"/Images/suv (5).png"} alt="" width={220} height={68} />
+              <Image src={"/Images/Specification 5.png"} alt="" width={256} height={24} />
             </CardContent>
             <CardFooter className="w-full flex items-center justify-between">
-              <p>
-                $99.00/<span className="text-gray-500">day</span>
+            
+            <p className="price font-bold">
+                $74.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
+              <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
             </CardFooter>
           </Card>
 
@@ -273,14 +297,15 @@ export default function Home() {
               <CardDescription>SUV</CardDescription>
             </CardHeader>
             <CardContent className="w-full flex flex-col items-center justify-center gap-4">
-              <Image src={"/Images/suv (4).png"} alt="" width={220} height={68} />
-              <Image src={"/Images/Specification.png"} alt="" width={256} height={24} />
+              <Image src={"/Images/suv (1).png"} alt="" width={220} height={68} />
+              <Image src={"/Images/Specification 3.png"} alt="" width={256} height={24} />
             </CardContent>
             <CardFooter className="w-full flex items-center justify-between">
-              <p>
-                $99.00/<span className="text-gray-500">day</span>
+              
+            <p className="price font-bold">
+                $80.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
+              <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
             </CardFooter>
           </Card>
         </div>
@@ -289,7 +314,7 @@ export default function Home() {
       <section className="button w-full text-center">
         <Link href={"/categories"}>
           <button className="bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5">
-            Show More Cars
+            Show more car
           </button>
         </Link>
       </section>
