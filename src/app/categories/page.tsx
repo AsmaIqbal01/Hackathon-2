@@ -35,12 +35,12 @@ export default function Page() {
               { title: 'Koenigsegg', image: '/Images/car.png', desc: 'Sport' },
               { title: 'Nissan GT - R', image: '/Images/car (1).png', desc: 'sport' },
               { title: 'Rolls-Royce', image: '/Images/Car (2).png', desc: 'Sport' },
-              { title: 'All New Rush', image: '/Images/suv (4).png', desc: 'Suv' },
+              { title: 'All New Rush', image: '/Images/suv (2).png', desc: 'Suv' },
               { title: 'CR - V', image: '/Images/suv (4).png', desc: 'Suv' },
-              { title: 'ALLNEW TERIOS', image: '/Images/suv (3).png', desc: 'SUV' },
-              { title: 'MGZX Exclusive', image: '/Images/suv (2).png', desc: 'Hatchback' },
+              { title: 'ALLNEW TERIOS', image: '/Images/suv.png', desc: 'SUV' },
+              { title: 'MGZX Exclusive', image: '/Images/suv (5).png', desc: 'Hatchback' },
               { title: 'NEW MGZS', image: '/Images/suv (1).png', desc: 'SUV' },
-              { title: 'MGZX Exclusive', image: '/Images/suv (2).png', desc: 'Hatchback' },
+              { title: 'MGZX Exclusive', image: '/Images/suv (5).png', desc: 'Hatchback' },
 
             ].map((car, index) => (
               <Card key={index} className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
@@ -59,7 +59,7 @@ export default function Page() {
                   <p>
                     $99.00/<span className="text-gray-500">day</span>
                   </p>
-                  <Link href={'/Images/Details'}>
+                  <Link href={'/details'}>
                   <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
                 </CardFooter>
               </Card>
@@ -89,8 +89,9 @@ export default function Page() {
                       $99.00/<span className="text-gray-500">day</span>
                     </p>
                
-                    <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-                  </CardFooter>
+                    <Link href={'/details'}>
+                  <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
+                   </CardFooter>
                 </Card>
               ))}
             </div>

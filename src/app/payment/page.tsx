@@ -123,7 +123,7 @@ export default function Page() {
           <CardContent className="flex flex-col gap-6">
             <Image src={"/Images/Credit Card.png"} alt="Credit Card" width={804} height={308} />
             <Image src={"/Images/PayPal.png"} alt="PayPal" width={804} height={56} />
-            <Image src={"/Images/Bitcoin.png"} alt="Bitcoin" width={804} height={56} />
+            <Image src={"/Bitcoin.png"} alt="Bitcoin" width={804} height={56} />
           </CardContent>
         </Card>
 
